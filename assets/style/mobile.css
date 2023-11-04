@@ -1,0 +1,72 @@
+*{margin:0;padding:0;}
+section{
+    display: none;
+    font-family: 'Roboto Regular', sans-serif;
+    width:100%;
+    height:100vh;
+}
+.active{
+    display: block;
+}
+.attribution{display: none;}
+input, button{
+    border-radius: 5px;
+    width:100%;
+    cursor: pointer;
+    padding: 10px;
+    border:1px solid #E6E6EF;
+}
+.btn-activate{
+    background-image: linear-gradient(to right, #FF6A3A, #FF527B);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:none;
+    color:#fff;
+    box-shadow: 0px 0px 5px linear-gradient(to right, #FF6A3A, #FF527B);
+    animation: glow 1s infinite;
+    cursor: pointer;
+}
+button{
+    background-color: #36384D;
+    border:none;
+    color:#fff;
+    cursor:default
+    
+}
+#email_invalid{
+    color:red;
+    visibility: hidden;
+}
+.show{
+    visibility: visible !important;
+}
+.invalidemail{
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#emailText{
+    font-weight: bold;
+}
+#dismiss{
+    cursor: pointer;
+    margin-top: 60%;
+}
+#success div{
+    width:100%;
+    padding:20px;
+}
+#success{
+    width:400px;
+    padding:10px;
+    width:100%;
+    margin-top: 25%;
+}
+#success span img{
+    width:50px;
+}
+
+#div{
+    padding-left: 20px;
+    padding-top: 50px;
+}
